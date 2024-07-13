@@ -1,0 +1,9 @@
+{
+    "python.pythonPath": ".venv/bin/python", // or .venv\Scripts\python.exe on Windows
+    "python.envFile": "${workspaceFolder}/.env",
+    "editor.formatOnSave": true,
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.python"
+    },
+    "python.formatting.provider": "black"
+  }
